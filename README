@@ -1,0 +1,59 @@
+Adda_v1.0 - Demo Version
+
+Digital Signature Verification
+
+What is this?
+This file has a digital fingerprint (SHA512 hash) to verify it hasn't been tampered with.
+
+How to Verify:
+
+1. Open Command Prompt (cmd.exe)
+
+2. Type this command (replace the filename with your actual path):
+
+```cmd
+C:\Windows\System32\certutil.exe -hashfile "C:\YourPath\Adda_v1.0_demo.zip" SHA512
+```
+
+3. Compare the output with the hash below:
+
+```
+5ebcd6e1008cc7a9ce42ea099a33caa22132877cebae13c8ec2308bc98e5e09371e98d9f6b5f69b02939ea5d4926eac04f10271422e617e99ba31330a77e7cca
+```
+
+If they match → File is original and safe.
+If different → File has been modified or corrupted.
+
+---
+
+Quick Start
+
+1. Extract the ZIP file to any folder
+2. Run Adda.exe
+3. Follow the UI instructions
+
+That's it! No installation required.
+
+---
+
+Important Notes
+
+This is an early demo version.
+
+· Basic functionality only
+· Technical details will be released in future versions
+· UI/UX improvements coming soon
+· It's not 100% secure yet, but it's certainly more secure than similar programs that typically use fixed keys.
+Also, that (impossible) only holds true under certain security assumptions—such as values not being tampered with after extraction by OpenCV, the operating system and hardware not being treacherous, and the third key being longer than file!
+
+---
+
+Requirements
+
+· Windows 10 (64-bit)
+· No additional software needed
+
+---
+
+Thank you for trying Adda!
+© 2026 Reza Jabarouti. All rights reserved.
