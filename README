@@ -16,7 +16,7 @@ How to Verify:
 2. Type this command (replace the filename with your actual path):
 
 ```cmd
-C:\Windows\System32\certutil.exe -hashfile "C:\YourPath\Adda_v1.0_demo.zip" SHA512
+C:\Windows\System32\certutil.exe -hashfile "C:\YourPath\Adda_v1.0_demo.rar" SHA512
 ```
 
 3. Compare the output with the hash below:
@@ -62,3 +62,4 @@ Requirements
 Thank you for trying Adda!
 
 © 2026 Reza Jabarouti. All rights reserved.
+
